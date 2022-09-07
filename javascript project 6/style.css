@@ -1,0 +1,36 @@
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main h2 {
+  margin: 0;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+}
+
+main h2 span {
+  color: red;
+}
+
+.container {
+  margin: 10px;
+}
+
+.btn {
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid green;
+  border-radius: 20px;
+  background-color: rgb(123, 141, 141);
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  background-color: rgb(198, 220, 220);
+}
